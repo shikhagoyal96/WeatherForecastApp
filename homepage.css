@@ -1,0 +1,61 @@
+body {
+    font-family: 'OpenSans';
+}
+.app-btn {
+    position: absolute;
+    font-size: 20px;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.modal-dialog {
+    max-width: fit-content !important;
+}
+.modal-header {
+    border-bottom: none !important;
+    background-color: #4d4d4d;
+    color: white;
+}
+.modal-title {
+    font-size: 32px !important;
+    font-weight: bold;
+}
+.modal-header .close {
+    text-shadow: none;
+    opacity: 1;
+    font-weight: 200;
+}
+.btn-close {
+    opacity: 1 !important;
+    font-size: 1.5rem;
+}
+.modal-body .h3 {
+    font-size: 28px !important;
+    font-weight: bold;
+}
+.modal-body select {
+    font-size: 28px !important;
+}
+.modal-body #weatherinfo h6,p:nth-child(-n + 2)   {
+    font-size: 18px;
+    font-weight: bold;
+}
+.modal-body #weatherinfo p  {
+    font-size: 18px;
+}
+.form-select {
+    width: 100%;
+    background-color: #66727d29 !important;
+    border: none !important;
+    padding: 6px;
+}
+.modal-footer {
+    border-top: none !important;
+}
+.modal-footer button {
+    font-size: 1.5rem;
+    border-radius: 0rem;
+    padding: 0.5rem 2rem;
+}
